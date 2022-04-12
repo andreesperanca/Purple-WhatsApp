@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Whats</string>
+    <string name="inputEmail">Email</string>
+    <string name="inputPassword">Senha</string>
+    <string name="credits">Purple WhatsApp \n André Esperança</string>
+    <string name="register">Registrar</string>
+    <string name="enter">Entrar</string>
+    <string name="repeatPassword">Confirme a senha</string>
+    <string name="inputName">Nome</string>
+    <string name="registerScreen">Registro</string>
+    <string name="txtConfirmEmail">Antes de continuar você precisa confirmar seu email, você recebeu uma mensagem de confirmação no endereço de email : \n %1$s.</string>
+    <string name="exit">Sair</string>
+    <string name="sendAgain">Enviar o email novamente</string>
+    <string name="iAlreadyConfirmed">Eu já confirmei</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userName">Nome de usuário:</string>
+    <string name="logOut">Sair</string>
+    <string name="excludeAccount">Deletar Conta</string>
+    <string name="chats">Conversas</string>
+    <string name="Profile">Perfil</string>
+</resources>

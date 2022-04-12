@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413246467812",
+    "project_id": "purple-whatsapp",
+    "storage_bucket": "purple-whatsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413246467812:android:a32234f1b6ef6c28b486f1",
+        "android_client_info": {
+          "package_name": "com.voltaire.whats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413246467812-meuk869f6j94i16gvm3ktc5dv8ptf36a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNVu38so9bqgdVpkYJ0OKTi4pLmxcjAP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413246467812-meuk869f6j94i16gvm3ktc5dv8ptf36a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
