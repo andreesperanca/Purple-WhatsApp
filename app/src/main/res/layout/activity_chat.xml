@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ChatActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        android:background="@color/white"
+        android:id="@+id/toolbarMsg"
+        app:title="André"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/gray"
+        android:id="@+id/rv_msgs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarMsg"
+        app:layout_constraintBottom_toTopOf="@id/layoutChat"/>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/layoutChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:text=""
+            android:padding="10dp"
+            android:background="@color/white"
+            android:id="@+id/txt_msg_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ImageButton
+    android:background="@null"
+    android:id="@+id/btnSendMsg"
+    android:src="@drawable/ic_baseline_send_24"
+    app:layout_constraintEnd_toEndOf="@id/layoutChat"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_width="60dp"
+    android:layout_height="60dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

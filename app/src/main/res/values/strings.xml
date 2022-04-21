@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Whats</string>
+    <string name="app_name">Purple WhatsApp</string>
     <string name="inputEmail">Email</string>
     <string name="inputPassword">Senha</string>
     <string name="credits">Purple WhatsApp \n André Esperança</string>
@@ -22,4 +22,13 @@
     <string name="excludeAccount">Deletar Conta</string>
     <string name="chats">Conversas</string>
     <string name="Profile">Perfil</string>
+    <string name="inputYourName">Insira seu nome</string>
+    <string name="save">salvar</string>
+    <string name="cancel">cancelar</string>
+    <string name="newPassword">Digite sua nova senha</string>
+    <string name="newPasswordConfirm">Confirme sua senha atual</string>
+    <string name="currentPassword">Digite sua senha atual</string>
+    <string name="settingsPhoto">Configurações de foto</string>
+    <string name="name_contact">CONTACT_NAME</string>
+    <string name="failure">Falha ao carregar usuários</string>
 </resources>

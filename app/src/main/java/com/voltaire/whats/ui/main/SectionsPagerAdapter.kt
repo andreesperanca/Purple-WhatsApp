@@ -16,7 +16,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
     override fun getItem(position: Int): Fragment {
         return when (position) {
             1 -> ProfileFragment.newInstance()
-            else -> PlaceholderFragment.newInstance(position + 1)
+            else -> ChatsFragment.newInstance(position + 1)
         }
     }
 

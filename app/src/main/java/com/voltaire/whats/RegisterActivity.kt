@@ -62,7 +62,7 @@ class RegisterActivity : AppCompatActivity() {
                             )
 
                             db.collection("users")
-                                .document(auth.currentUser!!.uid)
+                                .document(auth.currentUser!!.email.toString())
                                 .set(user)
                                 .addOnSuccessListener {
 

@@ -55,13 +55,13 @@
                 android:text="@string/userName" />
 
             <TextView
+                android:id="@+id/userName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/txt_userName"
                 android:layout_toStartOf="@id/editNameButton"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:text="André Luiz"
                 android:textSize="17sp" />
 
             <ImageButton
@@ -88,25 +88,14 @@
                 android:text="@string/inputEmail" />
 
             <TextView
+                android:id="@+id/userEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/txt_userEmail"
-                android:layout_toStartOf="@id/editEmailButton"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:text="andre@gmail.com"
                 android:textSize="17sp" />
 
-            <ImageButton
-                android:id="@+id/editEmailButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:background="@null"
-                android:padding="6dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:src="@drawable/ic_baseline_edit_24" />
         </RelativeLayout>
 
         <RelativeLayout

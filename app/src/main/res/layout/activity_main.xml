@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
+    android:background="@color/purple_500"
     tools:context=".MainActivity">
 
     <ProgressBar
@@ -29,27 +29,31 @@
         android:paddingVertical="10dp">
 
         <ImageView
+            android:src="@drawable/ic_baseline_chat_24"
             android:layout_width="350dp"
             android:layout_height="200dp"
             android:layout_centerHorizontal="true"
             android:adjustViewBounds="true" />
 
         <EditText
+            android:maxLines="1"
             android:id="@+id/editEmailLogin"
             style="@style/FormEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
+            android:layout_marginHorizontal="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:hint="@string/inputEmail" />
 
         <EditText
+            android:maxLines="1"
             android:id="@+id/editPasswordLogin"
+            android:inputType="textPassword"
             style="@style/FormEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
+            android:layout_marginHorizontal="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:hint="@string/inputPassword" />
