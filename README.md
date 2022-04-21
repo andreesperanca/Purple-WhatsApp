@@ -45,6 +45,7 @@ Aplicativo de chat baseado no WhatsApp, para aplicar conhecimentos aprendidos so
 - [x] ProgressBar simples.
 - [x] Chat.
 - [ ] Notificações.
+- [ ] Adicionar status do usuário.
 - [ ] Refatorar código e adicionar uma arquitetura de projeto.
 
 
