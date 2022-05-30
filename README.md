@@ -42,7 +42,6 @@ Aplicativo de chat baseado no WhatsApp, para aplicar conhecimentos aprendidos so
 - [x] Chat.
 - [ ] Notificações.
 - [ ] Adicionar status do usuário.
-- [ ] Refatorar código e adicionar uma arquitetura de projeto.
 
 
 ### Autor
