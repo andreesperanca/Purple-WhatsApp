@@ -2,12 +2,8 @@
 
 
 <h1 align="center">
-  <img style="border-radius: 50%;" src="./assets/login.png" width="250px;" alt=""/>
-  <img style="border-radius: 50%;" src="./assets/register.png" width="250px;" alt=""/>
-  <img style="border-radius: 50%;" src="./assets/verify.png" width="250px;" alt=""/>
-  <img style="border-radius: 50%;" src="./assets/chats.png" width="250px;" alt=""/>
   <img style="border-radius: 50%;" src="./assets/innerchat.png" width="250px;" alt=""/>
-  <img style="border-radius: 50%;" src="./assets/profile.png" width="250px;" alt=""/>
+
   </h1>
   
   <h1 align="center">
